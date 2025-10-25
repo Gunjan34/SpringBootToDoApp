@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/todos")
-@CrossOrigin(origins = {"http://localhost:5173","http://127.0.0.1:5173"}) // change to specific origin in production
+@CrossOrigin(origins = {"http://localhost:5173","http://127.0.0.1:5173","http://13.201.0.25", "http://13.201.8.25"}) // change to specific origin in production
 public class TodoController {
     private final TodoService service;
 
