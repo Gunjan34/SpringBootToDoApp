@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-const API_URL = "http://localhost:8080/api/todos";
+const API_URL = "http://13.201.0.25:8080/api/todos";
 
 function App() {
   const [todos, setTodos] = useState([]);
